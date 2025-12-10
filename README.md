@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zhihai Tu's Personal Homepage
 
-## Getting Started
+> Personal homepage of Zhihai Tu - AI R&D Manager & AI Agent Architect
 
-First, run the development server:
+## 🌟 Overview
+
+This is a modern, responsive personal homepage built with Next.js and Tailwind CSS, showcasing my professional background, core competencies, and achievements in AI research and development.
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 16
+- **UI Library**: React 19
+- **Styling**: Tailwind CSS 4
+- **Language**: TypeScript 5
+- **Deployment**: Vercel (recommended)
+
+## ✨ Features
+
+- 📱 Fully responsive design
+- 🌓 Dark mode support
+- 🎨 Modern gradient UI with smooth animations
+- ⚡ Optimized performance with Next.js App Router
+- 🎯 SEO-friendly structure
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/zhihai-tu/homepage.git
+
+# Navigate to project directory
+cd homepage
+
+# Install dependencies
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Start development server
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Learn More
+### Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Build for production
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Structure
 
-## Deploy on Vercel
+```
+homepage/
+├── app/              # Next.js App Router pages
+│   ├── page.tsx      # Main homepage
+│   └── layout.tsx    # Root layout
+├── public/           # Static assets
+│   └── avatar.jpg    # Profile picture
+├── package.json      # Dependencies
+└── README.md         # This file
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To customize this template for your own use:
+
+1. Replace personal information in `app/page.tsx`
+2. Update profile picture in `public/avatar.jpg`
+3. Modify color schemes in Tailwind CSS classes
+4. Add or remove sections as needed
+
+## 📝 Content Sections
+
+- **Hero Section**: Introduction with avatar and social links
+- **About Me**: Professional background and experience
+- **Core Competencies**: Key skills and expertise areas
+- **Certifications**: Professional certifications and qualifications
+
+## 🚀 Deployment
+
+### Deploy on Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
+
+The easiest way to deploy is using [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📄 License
+
+© 2024 Zhihai Tu. All rights reserved.
+
+## 📞 Contact
+
+- **GitHub**: [@zhihai-tu](https://github.com/zhihai-tu)
+- **WeChat**: tuzhihai
+
+---
+
+Built with ❤️ using Next.js & Tailwind CSS
