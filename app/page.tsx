@@ -47,6 +47,16 @@ export default function Home() {
                 GitHub
               </a>
               <a
+                href="mailto:zhihai.tu@gmail.com"
+                className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:bg-indigo-700 hover:scale-105 dark:bg-indigo-500 dark:hover:bg-indigo-400"
+              >
+                <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16a1 1 0 01.8 1.6l-8 10a1 1 0 01-1.6 0l-8-10A1 1 0 014 6z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6l8 5 8-5" />
+                </svg>
+                Email: zhihai.tu@gmail.com
+              </a>
+              <a
                 href="https://github.com/zhihai-tu"
                 className="flex items-center gap-2 rounded-full bg-green-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:bg-green-700 hover:scale-105"
               >
